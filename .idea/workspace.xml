@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed55735d-a533-4ee2-859c-7a5e7fc10437" name="Changes" comment="clean install">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/CloudStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/MainLoggerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/Main_switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/SftpStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/switch_matching_pattern/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vladproduction/switch_matching_pattern/MainLoggerAppTest.java" afterDir="false" />
+    <list default="true" id="ed55735d-a533-4ee2-859c-7a5e7fc10437" name="Changes" comment="pattern matching for switch">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/DirectReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/HouseB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/MainRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vladproduction/unnamed_patterns_variables/StoreB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +30,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,10 +61,12 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
     "Application.Main21.executor": "Run",
     "Application.MainFoodItemsApp.executor": "Run",
     "Application.MainJava21.executor": "Run",
     "Application.Main_switch.executor": "Run",
+    "Application.com.vladproduction.unnamed_patterns_variables.Main.executor": "Run",
     "JUnit.MainLoggerAppTest.executor": "Run",
     "JUnit.MainLoggerAppTest.getUnknownLoggerTypeTest.executor": "Run",
     "JUnit.ShoppingListTest.executor": "Run",
@@ -109,13 +110,13 @@
       <recent name="com.vladproduction.sequenced_collections" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainLoggerAppTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vladproduction.switch_matching_pattern.Main" />
+  <component name="RunManager" selected="Application.MainRegister">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vladproduction.unnamed_patterns_variables.Main2" />
       <module name="Java-21-features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vladproduction.switch_matching_pattern.*" />
+          <option name="PATTERN" value="com.vladproduction.unnamed_patterns_variables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vladproduction.switch_matching_pattern.Main_switch" />
+    <configuration name="MainRegister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vladproduction.unnamed_patterns_variables.MainRegister" />
       <module name="Java-21-features" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vladproduction.switch_matching_pattern.*" />
+          <option name="PATTERN" value="com.vladproduction.unnamed_patterns_variables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.vladproduction.unnamed_patterns_variables.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vladproduction.unnamed_patterns_variables.Main" />
+      <module name="Java-21-features" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vladproduction.unnamed_patterns_variables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,28 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-21-features" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vladproduction.record_pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vladproduction.record_pattern" />
-      <option name="MAIN_CLASS_NAME" value="com.vladproduction.record_pattern.TicketMachineTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainRegister" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.com.vladproduction.unnamed_patterns_variables.Main" />
         <item itemvalue="JUnit.MainLoggerAppTest" />
         <item itemvalue="JUnit.MainLoggerAppTest.getUnknownLoggerTypeTest" />
-        <item itemvalue="Application.Main_switch" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TicketMachineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +208,7 @@
       <updated>1729017389199</updated>
       <workItem from="1729017390883" duration="6432000" />
       <workItem from="1729024759073" duration="2506000" />
-      <workItem from="1729068610471" duration="3855000" />
+      <workItem from="1729068610471" duration="6714000" />
     </task>
     <task id="LOCAL-00001" summary="sequenced collection">
       <option name="closed" value="true" />
@@ -235,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729027241136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pattern matching for switch">
+      <option name="closed" value="true" />
+      <created>1729072510496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729072510496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +263,7 @@
     <MESSAGE value="sequenced collection" />
     <MESSAGE value="record pattern" />
     <MESSAGE value="clean install" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean install" />
+    <MESSAGE value="pattern matching for switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="pattern matching for switch" />
   </component>
 </project>
